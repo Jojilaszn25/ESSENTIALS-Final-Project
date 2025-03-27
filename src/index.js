@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function fetchProducts() {
-    fetch("db.json")
+    fetch("http://localhost:3000/products")
         .then(response => response.json())
         .then(data => displayProducts(data.products));
 }
@@ -26,7 +26,7 @@ function displayProducts(products) {
 }
 
 function applyFilters() {
-    fetch("db.json")
+    fetch("")
         .then(response => response.json())
         .then(data => {
             let filtered = data.products;
@@ -41,7 +41,7 @@ function applyFilters() {
 
 function searchProducts(event) {
     const query = event.target.value.toLowerCase();
-    fetch("db.json")
+    fetch("https://fearofgod.com/search?q=crewneck&type=product#")
         .then(response => response.json())
         .then(data => {
             const filtered = data.products.filter(p => p.name.toLowerCase().includes(query));
