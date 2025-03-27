@@ -2,16 +2,44 @@
     "products": [
       { "name": "Fear of God Hoodie",
         "price": 1800,
-        "image":"https://fearofgod.com/en-sg/collections/essentials-mens-tops/products/essentials-6110202041-classic-hoodie-jet-black"
+        "image":"https://fearofgod.com/en-sg/collections/essentials-mens-tops/products/essentials-6110202041-classic-hoodie-jet-black",
         "category": "Hoodie"
      },
-      { "name": "Fear of God S/S T-Shirt", "price": 1100, "category": "T-Shirt" },
-      { "name": "Fear of God L/S T-Shirt", "price": 1150, "category": "T-Shirt" },
-      { "name": "Fear of God Track Jacket", "price": 2600, "category": "Jacket" },
-      { "name": "Fear of God Classic Short", "price": 985, "category": "Shorts" },
-      { "name": "Fear of God Eternal Knit Tee", "price": 2000, "category": "Tops" },
-      { "name": "Fear of God Eternal Sweatpant", "price": 750, "category": "Sweatpants" },
-      { "name": "Fear of God Eternal Crewneck", "price": 600, "category": "Crewneck" }
+      { "name": "Fear of God S/S T-Shirt",
+        "price": 1100,
+        "image":"https://fearofgod.com/en-sg/collections/essentials-mens-tops/products/essentials-6109100012-classic-short-sleeve-tee-homestead-heather",
+        "category": "T-Shirt"
+     },
+      { "name": "Fear of God L/S T-Shirt",
+        "price": 1150,
+        "image":"https://fearofgod.com/en-sg/collections/essentials-mens-tops/products/essentials-6110202069-classic-long-sleeve-tee-homestead-heather",
+        "category": "T-Shirt" 
+    },
+      { "name": "Fear of God Track Jacket",
+       "price": 2600,
+       "image":"https://fearofgod.com/products/eternal-24-nylon-track-jacket-fge230-327pon-cement", 
+       "category": "Jacket" 
+    },
+      { "name": "Fear of God Classic Short",
+        "price": 985,
+        "image":"https://fearofgod.com/products/essentials-sweatshorts-paris-160al244002f-warm-heather",
+        "category": "Shorts" 
+    },
+      { "name": "Fear of God Eternal Knit Tee",
+        "price": 2000,
+        "image":"https://fearofgod.com/products/fw24-moc-knit-lo-italy-winter-white-fg880-145woo",
+        "category": "Tops" 
+    },
+      { "name": "Fear of God Eternal Sweatpant",
+        "price": 750,
+        "image":"https://fearofgod.com/products/essentials-6103421020-classic-sweatpant-jet-black",
+        "category": "Sweatpants" 
+    },
+      { "name": "Fear of God Eternal Crewneck",
+        "price": 600,
+        "image":"https://fearofgod.com/products/es-24-eternal-crewneck-fge250-5141flc-dove-grey",
+        "category": "Crewneck" 
+    }
     ]
   }
   
