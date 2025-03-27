@@ -17,6 +17,7 @@ function displayProducts(products) {
         const div = document.createElement("div");
         div.classList.add("product");
         div.innerHTML = `
+            <img src="${product.image}" alt="${product.name}" class="product-image">
             <h3>${product.name}</h3>
             <p>$${product.price}</p>
             <button onclick="addToCart('${product.name}', ${product.price})">Add to Cart</button>
@@ -26,7 +27,7 @@ function displayProducts(products) {
 }
 
 function applyFilters() {
-    fetch("")
+    fetch("http://localhost:3000/products")
         .then(response => response.json())
         .then(data => {
             let filtered = data.products;
@@ -41,7 +42,7 @@ function applyFilters() {
 
 function searchProducts(event) {
     const query = event.target.value.toLowerCase();
-    fetch("https://fearofgod.com/search?q=crewneck&type=product#")
+    fetch("http://localhost:3000/products")
         .then(response => response.json())
         .then(data => {
             const filtered = data.products.filter(p => p.name.toLowerCase().includes(query));
