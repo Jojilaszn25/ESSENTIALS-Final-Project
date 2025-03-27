@@ -1,6 +1,10 @@
 {
     "products": [
-      { "name": "Fear of God Hoodie", "price": 1800, "category": "Hoodie" },
+      { "name": "Fear of God Hoodie",
+        "price": 1800,
+        "image":"https://fearofgod.com/en-sg/collections/essentials-mens-tops/products/essentials-6110202041-classic-hoodie-jet-black"
+        "category": "Hoodie"
+     },
       { "name": "Fear of God S/S T-Shirt", "price": 1100, "category": "T-Shirt" },
       { "name": "Fear of God L/S T-Shirt", "price": 1150, "category": "T-Shirt" },
       { "name": "Fear of God Track Jacket", "price": 2600, "category": "Jacket" },
