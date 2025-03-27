@@ -1,0 +1,13 @@
+{
+    "products": [
+      { "name": "Fear of God Hoodie", "price": 1800, "category": "Hoodie" },
+      { "name": "Fear of God S/S T-Shirt", "price": 1100, "category": "T-Shirt" },
+      { "name": "Fear of God L/S T-Shirt", "price": 1150, "category": "T-Shirt" },
+      { "name": "Fear of God Track Jacket", "price": 2600, "category": "Jacket" },
+      { "name": "Fear of God Classic Short", "price": 985, "category": "Shorts" },
+      { "name": "Fear of God Eternal Knit Tee", "price": 2000, "category": "Tops" },
+      { "name": "Fear of God Eternal Sweatpant", "price": 750, "category": "Sweatpants" },
+      { "name": "Fear of God Eternal Crewneck", "price": 600, "category": "Crewneck" }
+    ]
+  }
+  
