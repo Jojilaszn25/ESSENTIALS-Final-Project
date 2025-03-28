@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetchProducts();
+    fetchProducts("http://localhost:3000/products");
 });
 
 async function fetchProducts() {
